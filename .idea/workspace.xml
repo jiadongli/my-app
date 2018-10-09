@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c713946-d21a-4108-b280-d6112ea2c1fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/env.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/paths.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/build.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/start.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/test.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/pages/demo/Life.js" afterPath="$PROJECT_DIR$/src/pages/demo/Life.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/demo/index.less" afterPath="$PROJECT_DIR$/src/pages/demo/index.less" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.prod.js" afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -95,13 +81,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.dev.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.config.dev.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="866">
-              <caret line="208" column="36" lean-forward="true" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
+            <state relative-caret-position="103">
+              <caret line="307" column="12" lean-forward="false" selection-start-line="307" selection-start-column="12" selection-end-line="338" selection-end-column="14" />
               <folding>
-                <element signature="e#2153#2546#0" expanded="false" />
+                <element signature="e#2258#2469#0" expanded="false" />
+                <element signature="e#13029#14332#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.prod.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5589">
+              <caret line="424" column="14" lean-forward="false" selection-start-line="424" selection-start-column="14" selection-end-line="424" selection-end-column="14" />
+              <folding>
+                <element signature="e#15907#17210#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -164,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/pages/demo/index.less" />
         <option value="$PROJECT_DIR$/src/pages/demo/Life.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.prod.js" />
       </list>
     </option>
   </component>
@@ -179,8 +179,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="203" />
-    <option name="y" value="11" />
+    <option name="x" value="229" />
+    <option name="y" value="25" />
     <option name="width" value="1164" />
     <option name="height" value="727" />
   </component>
@@ -286,18 +286,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539072574643</updated>
-      <workItem from="1539072576267" duration="7837000" />
+      <workItem from="1539072576267" duration="8566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7837000" />
+    <option name="totallyTimeSpent" value="8566000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="203" y="11" width="1164" height="727" extended-state="0" />
-    <editor active="true" />
+    <frame x="229" y="25" width="1164" height="727" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07665505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17247386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -306,7 +305,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6612378" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -419,10 +418,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="208" column="36" lean-forward="true" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
+        <state relative-caret-position="103">
+          <caret line="307" column="12" lean-forward="false" selection-start-line="307" selection-start-column="12" selection-end-line="338" selection-end-column="14" />
           <folding>
-            <element signature="e#2153#2546#0" expanded="false" />
+            <element signature="e#2258#2469#0" expanded="false" />
+            <element signature="e#13029#14332#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5589">
+          <caret line="424" column="14" lean-forward="false" selection-start-line="424" selection-start-column="14" selection-end-line="424" selection-end-column="14" />
+          <folding>
+            <element signature="e#15907#17210#0" expanded="false" />
           </folding>
         </state>
       </provider>
