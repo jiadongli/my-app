@@ -45,7 +45,8 @@ const cssRegex = /\.css$/;
 const cssModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
-
+const lessRegex = /\.less$/;
+const lessModuleRegex = /\.module\.lesss$/;
 // common function to get style loaders
 const getStyleLoaders = (cssOptions, preProcessor) => {
   const loaders = [
@@ -87,6 +88,7 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
       loader: require.resolve(preProcessor),
       options: {
         sourceMap: shouldUseSourceMap,
+         modifyVars:{"@primary-color":"#f9c700"},
       },
     });
   }
@@ -392,36 +394,22 @@ module.exports = {
             ),
           },
             {
-                test: /\.(css|less)$/,
-                use: [
-                    require.resolve('style-loader'),
+                test: lessRegex,
+                exclude: lessModuleRegex,
+                use: getStyleLoaders({ importLoaders: 3 }, 'less-loader'),
+            },
+            // Adds support for CSS Modules, but using SASS
+            // using the extension .module.scss or .module.sass
+            {
+                test: lessModuleRegex,
+                use: getStyleLoaders(
                     {
-                        loader: require.resolve('css-loader'),
-                        options: {
-                            importLoaders: 1,
-                        },
+                        importLoaders: 3,
+                        modules: true,
+                        getLocalIdent: getCSSModuleLocalIdent,
                     },
-                    {
-                        loader: require.resolve('postcss-loader'),
-                        options: {
-                            // Necessary for external CSS imports to work
-                            // https://github.com/facebookincubator/create-react-app/issues/2677
-                            ident: 'postcss',
-                            plugins: () => [
-                                require('postcss-flexbugs-fixes'),
-                                require('postcss-preset-env')({
-                                    autoprefixer: {
-                                        flexbox: 'no-2009',
-                                    },
-                                    stage: 3,
-                                }),
-                            ],
-                        },
-                    },
-                    {
-                        loader: require.resolve('less-loader')
-                    }
-                ],
+                    'less-loader'
+                ),
             },
           // "file" loader makes sure assets end up in the `build` folder.
           // When you `import` an asset, you get its filename.

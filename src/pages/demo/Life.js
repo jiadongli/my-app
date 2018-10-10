@@ -1,6 +1,7 @@
 import React from 'react';
 import Child from './Child';
-import style from './index.less';
+import {Button} from 'antd';
+import Style from "./style.less";
 export default class Life extends React.Component{
     constructor(props){
         super(props);
@@ -14,10 +15,13 @@ export default class Life extends React.Component{
         })
     }
     render(){
-        return <div className={style.class}>
+        return <div >
             <p>React 生命周期介绍</p>
+            <a href="#" className="a">你好的</a>
             <button onClick={this.handleAdd}>点击一下</button>
             <p>{this.state.count}</p>
+            <i class="iconfont">&#xe604;</i>
+            <Button>button</Button>
             <Child name={this.state.count}></Child>
         </div>
     }

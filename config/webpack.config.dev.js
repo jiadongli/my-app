@@ -30,6 +30,8 @@ const cssRegex = /\.(css)$/;
 const cssModuleRegex = /\.module\.(css)$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
+const lessRegex = /\.less$/;
+const lessModuleRegex = /\.module\.lesss$/;
 
 
 // common function to get style loaders
@@ -62,7 +64,12 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
     },
   ];
   if (preProcessor) {
-    loaders.push(require.resolve(preProcessor));
+    loaders.push({
+        loader: require.resolve(preProcessor),
+        options: {
+            modifyVars:{"@primary-color":"#f9c700"},
+        },
+    });
   }
   return loaders;
 };
@@ -211,7 +218,6 @@ module.exports = {
               customize: require.resolve(
                 'babel-preset-react-app/webpack-overrides'
               ),
-
               plugins: [
                 [
                   require.resolve('babel-plugin-named-asset-import'),
@@ -223,6 +229,9 @@ module.exports = {
                     },
                   },
                 ],
+                ['import',{
+                'libraryName':'antd', 'style':true
+                }],
               ],
               // This is a feature of `babel-loader` for webpack (not Babel itself).
               // It enables caching results in ./node_modules/.cache/babel-loader/
@@ -306,36 +315,22 @@ module.exports = {
             ),
           },
             {
-                test: /\.(css|less)$/,
-                use: [
-                    require.resolve('style-loader'),
+                test: lessRegex,
+                exclude: lessModuleRegex,
+                use: getStyleLoaders({ importLoaders: 3 }, 'less-loader'),
+            },
+            // Adds support for CSS Modules, but using SASS
+            // using the extension .module.scss or .module.sass
+            {
+                test: lessModuleRegex,
+                use: getStyleLoaders(
                     {
-                        loader: require.resolve('css-loader'),
-                        options: {
-                            importLoaders: 1,
-                        },
+                        importLoaders: 3,
+                        modules: true,
+                        getLocalIdent: getCSSModuleLocalIdent,
                     },
-                    {
-                        loader: require.resolve('postcss-loader'),
-                        options: {
-                            // Necessary for external CSS imports to work
-                            // https://github.com/facebookincubator/create-react-app/issues/2677
-                            ident: 'postcss',
-                            plugins: () => [
-                                require('postcss-flexbugs-fixes'),
-                                require('postcss-preset-env')({
-                                    autoprefixer: {
-                                        flexbox: 'no-2009',
-                                    },
-                                    stage: 3,
-                                }),
-                            ],
-                        },
-                    },
-                    {
-                        loader: require.resolve('less-loader')
-                    }
-                ],
+                    'less-loader'
+                ),
             },
           // "file" loader makes sure those assets get served by WebpackDevServer.
           // When you `import` an asset, you get its (virtual) filename.
