@@ -1,0 +1,35 @@
+React Router
+react-router和react-router-dom理解
+
+4.0版本中已不需要路由配置，一切皆组件
+react-router:提供了一些router的核心api,包括Router,Route,Switch
+react-router-dom:提供了BrowserRouter,HashRouter,Route,Link NavLink
+
+HashRouter和BrowserRouter区别(带#号的是hash)
+Route:path,exact,(精确匹配)component,(组件)render
+NavLink,  R(重定向)
+Link(to="/about";to={{pathname:'/about/7'}})
+如：<Route path="/about/:number"/>
+取值变量 this.props.match.params.number
+// 一个基本的location对象
+{pathname:'/',search:'',hash:'',key:'abc123'state:{}}
+
+Switch(路由外面包switch从上到下只要找到一个就立马匹配)
+Redirect(重定向) <Redirect to="/about">
+混合组件化
+Link HashRouter,Route
+
+
+// antd ui组件
+一 Button组件使用讲解
+二 Modal组件使用讲解
+三 Loading组件使用讲解
+四 Notice组件使用讲解
+五 Message组件使用讲解
+六 Tab组件使用讲解
+七 Gallery组件使用讲解
+八Carousel组件使用讲解
+
+5-3
+
+
