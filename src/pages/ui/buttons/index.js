@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card,Button,Radio} from 'antd'
-import './ui.less'
+import '../ui.less'
 export default class Buttons extends  React.Component{
     state={
         loading:true
@@ -17,7 +17,7 @@ export default class Buttons extends  React.Component{
     }
     render(){
         return (
-            <div className="content-inner">
+            <div>
                 <Card title="基础按钮" className="card-wrap">
                     <Button type="primary">Imooc</Button>
                     <Button>Imooc</Button>
@@ -39,7 +39,7 @@ export default class Buttons extends  React.Component{
                     <Button  shape="circle" loading={this.state.loading}></Button>
                     <Button type="primary" onClick={this.handleCloseLoading}>关闭</Button>
                 </Card>
-                <Card title="按钮组">
+                <Card title="按钮组" style={{marginBottom:'10px'}}>
                     <Button.Group>
                         <Button type="primary"icon="left" >返回</Button>
                         <Button type="primary"icon="left" icon="right">前进</Button>
