@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c713946-d21a-4108-b280-d6112ea2c1fc" name="Default" comment="提交内容到">
-      <change beforePath="" afterPath="$PROJECT_DIR$/scroll.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/ui/loadings.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/ui/message.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/ui/modals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/ui/notice.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/ui/tabs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/ui/ui.less" />
+    <list default="true" id="3c713946-d21a-4108-b280-d6112ea2c1fc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/ui/carousel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/ui/gallery.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/record" afterPath="$PROJECT_DIR$/record" />
-      <change beforePath="$PROJECT_DIR$/src/admin.js" afterPath="$PROJECT_DIR$/src/admin.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavLeft/index.js" afterPath="$PROJECT_DIR$/src/components/NavLeft/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavLeft/index.less" afterPath="$PROJECT_DIR$/src/components/NavLeft/index.less" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ui/buttons/index.js" afterPath="$PROJECT_DIR$/src/pages/ui/buttons/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ui/buttons/ui.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ui/tabs.js" afterPath="$PROJECT_DIR$/src/pages/ui/tabs.js" />
       <change beforePath="$PROJECT_DIR$/src/router.js" afterPath="$PROJECT_DIR$/src/router.js" />
-      <change beforePath="$PROJECT_DIR$/src/style/common.less" afterPath="$PROJECT_DIR$/src/style/common.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +30,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabs.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tabs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/ui/tabs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="26">
+              <caret line="43" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <marker date="1539336590175" expanded="true" signature="1823:3532" ph="..." />
+                <marker date="1539336590175" expanded="true" signature="1881:2269" ph="..." />
+                <marker date="1539336590175" expanded="true" signature="1946:2245" ph="..." />
+                <marker date="1539336590175" expanded="true" signature="2331:2827" ph="..." />
+                <marker date="1539336590175" expanded="true" signature="2396:2803" ph="..." />
+                <marker date="1539336590175" expanded="true" signature="2889:3513" ph="..." />
+                <marker date="1539336590175" expanded="true" signature="2916:2983" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -53,14 +61,48 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="gallery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/ui/gallery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/ui/ui.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="62" column="12" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="menuConfig.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config/menuConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="345">
+              <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="39" />
               <folding>
                 <element signature="e#976#1252#0" expanded="false" />
                 <element signature="e#1258#1542#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carousel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/ui/carousel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +138,10 @@
       <find>(js|mjs|jsx)</find>
       <find>@primary-color</find>
       <find>vertical-center-modal</find>
+      <find>onEdit</find>
+      <find>console.log</find>
+      <find>handleOnChange</find>
+      <find>handleShowImg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,8 +197,10 @@
         <option value="$PROJECT_DIR$/src/pages/ui/notice.js" />
         <option value="$PROJECT_DIR$/src/pages/ui/message.js" />
         <option value="$PROJECT_DIR$/src/pages/ui/tag.js" />
-        <option value="$PROJECT_DIR$/src/router.js" />
         <option value="$PROJECT_DIR$/src/pages/ui/tabs.js" />
+        <option value="$PROJECT_DIR$/src/pages/ui/gallery.js" />
+        <option value="$PROJECT_DIR$/src/router.js" />
+        <option value="$PROJECT_DIR$/src/pages/ui/carousel.js" />
       </list>
     </option>
   </component>
@@ -168,9 +216,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="146" />
-    <option name="width" value="942" />
-    <option name="height" value="678" />
+    <option name="x" value="185" />
+    <option name="y" value="4" />
+    <option name="width" value="1039" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -232,13 +281,18 @@
             <path>
               <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="carousel-img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
@@ -314,7 +368,7 @@
       <workItem from="1539134881238" duration="30306000" />
       <workItem from="1539169097329" duration="83000" />
       <workItem from="1539221730289" duration="22165000" />
-      <workItem from="1539308858527" duration="19759000" />
+      <workItem from="1539308858527" duration="27767000" />
     </task>
     <task id="LOCAL-00001" summary="提交内容到">
       <created>1539167838916</created>
@@ -323,17 +377,25 @@
       <option name="project" value="LOCAL" />
       <updated>1539167838916</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="UI组件的完成">
+      <created>1539332515015</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539332515015</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80936000" />
+    <option name="totallyTimeSpent" value="88944000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="146" y="0" width="942" height="678" extended-state="0" />
+    <frame x="185" y="4" width="1039" height="706" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17602591" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.088954054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
@@ -341,7 +403,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5041459" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43539822" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -397,7 +459,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交内容到" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交内容到" />
+    <MESSAGE value="UI组件的完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI组件的完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -406,18 +469,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/demo/Child.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/uplus/iconfont.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/demo/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -755,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ui/ui.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/ui/loadings.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -781,27 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/menuConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="e#976#1252#0" expanded="false" />
-            <element signature="e#1258#1542#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/record">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -812,8 +834,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/ui/tabs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="26">
+          <caret line="43" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1539336590175" expanded="true" signature="1823:3532" ph="..." />
+            <marker date="1539336590175" expanded="true" signature="1881:2269" ph="..." />
+            <marker date="1539336590175" expanded="true" signature="1946:2245" ph="..." />
+            <marker date="1539336590175" expanded="true" signature="2331:2827" ph="..." />
+            <marker date="1539336590175" expanded="true" signature="2396:2803" ph="..." />
+            <marker date="1539336590175" expanded="true" signature="2889:3513" ph="..." />
+            <marker date="1539336590175" expanded="true" signature="2916:2983" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/menuConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#976#1252#0" expanded="false" />
+            <element signature="e#1258#1542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ui/gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ui/ui.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="62" column="12" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ui/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
