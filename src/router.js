@@ -12,6 +12,13 @@ import Message from './pages/ui/message';
 import Tabs from './pages/ui/tabs';
 import Gallery from './pages/ui/gallery';
 import Carousels from './pages/ui/carousel';
+import FormLogin from './pages/form/login';
+import FormRegister from './pages/form/register'
+import BasicTable from './pages/table/basicTable';
+import HeightTable from './pages/table/heightTable';
+import City from './pages/city';
+import Order from './pages/order';
+import Common from './common';
 export default class IRouter extends React.Component{
     render(){
         return (
@@ -29,12 +36,22 @@ export default class IRouter extends React.Component{
                                 <Route path="/admin/ui/tabs" component={Tabs}></Route>
                                 <Route path="/admin/ui/gallery" component={Gallery}></Route>
                                 <Route path="/admin/ui/carousel" component={Carousels}></Route>
+                                <Route path="/admin/form/login" component={FormLogin}></Route>
+                                <Route path="/admin/form/register" component={FormRegister}></Route>
+                                <Route path="/admin/table/basic" component={BasicTable}></Route>
+                                <Route path="/admin/table/high" component={HeightTable}></Route>
+                                <Route path="/admin/city" component={City}></Route>
+                                <Route path="/admin/order" component={Order}></Route>
                                 <Route component={NoMatch}></Route>
                             </Switch>
                         </Admin>
                     } >
                     </Route>
-                    <Route path="order/detail"></Route>
+                    <Route path="/common" render={()=>{
+                        return (<Common>
+                            <Route path="/common/order/detail/:orderId" component={Login}></Route>
+                        </Common>);
+                    }}></Route>
                 </App>
             </HashRouter>
         );

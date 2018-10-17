@@ -49,7 +49,7 @@ export default class NavLeft extends React.Component{
                     <img src="/assets/logo-ant.svg" alt=""/>
                     <h1  style={{color: this.state.theme === 'light' ? '#002140' : '#fff'}}>Imooc MS</h1>
                 </div>
-                <div className={this.state.theme === 'light' ? "nev-left-menu nev-left-menu-lift" : "nev-left-menu"}>
+                <div className={this.state.theme === 'light' ? "nev-left-menu-lift" : "nev-left-menu"}>
                     {/*<Button type="primary" onClick={this.toggleCollapsed} style={{ marginBottom: 16 }}>*/}
                         {/*<Icon type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'} />*/}
                     {/*</Button>*/}
